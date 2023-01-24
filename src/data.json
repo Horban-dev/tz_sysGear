@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "name": "John",
+            "email": "john2@mail.com",
+            "salary": "200",
+            "value": "John",
+            "label": "John"
+        },
+        {
+            "name": "John",
+            "email": "ajohn1@mail.com",
+            "salary": "700"
+        },
+        {
+            "name": "Jane",
+            "email": "jane@mail.com",
+            "salary": "300"
+        },
+        {
+            "name": "Ihor",
+            "email": "Ihor@mail.com",
+            "salary": "650",
+            "value": "Ihor",
+            "label": "Ihor"
+        },
+        {
+            "name": "Oleh",
+            "email": "Oleh@mail.com",
+            "salary": "90"
+        },
+        {
+            "name": "Rick",
+            "email": "Rick33@mail.com",
+            "salary": "900"
+        },
+        {
+            "name": "Oleh",
+            "email": "Oleh12@mail.com",
+            "salary": "760"
+        }
+    ]
+}
