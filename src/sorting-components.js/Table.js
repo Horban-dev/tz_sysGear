@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Data from "../data.json";
 import { BsSortAlphaDown } from 'react-icons/bs';
 import { Select } from 'antd';
+import { Option } from 'antd/es/mentions';
 const Table = () => {
     const [mainState, setMainState] = useState(Data.data)
 
@@ -81,7 +82,7 @@ const Table = () => {
                     </select>
                 </th>
                 <th scope="col">
-                    <span><sup>Change name to filter names list...</sup></span>
+                    <span><sup>Change name to delete name from list...</sup></span>
                     <Select 
                         mode="multiple"  
                         allowClear   
@@ -89,10 +90,9 @@ const Table = () => {
                         maxTagCount={2}
                         placeholder="Please select" 
                         onChange={selectedDelet}
-                        options={mainState}
                 >
                         {uniqueNames.map((item, i) => (
-                            <Select.Option key={i} value={item.name}>{item.name}</Select.Option>
+                            <Option key={i} value={item.name}>{item.name}</Option>
                         ))}
                 </Select>
                 </th>

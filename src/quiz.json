@@ -1,0 +1,39 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What is your marital status?",
+            "answers": [
+                "single",
+                "married"
+            ]
+        },
+        {
+            "id": 2,
+            "status": "single",
+            "question": "Are you planning on getting married next year?",
+            "answers": [
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "id": 3,
+            "status": "married",
+            "question": "How long have you been married?",
+            "answers": [
+                "Less than a year",
+                "More than a year"
+            ]
+        },
+        {
+            "id": 4,
+            "status": "married",
+            "question": "Have you celebrated your one year anniversary?",
+            "answers": [
+                "Yes",
+                "No"
+            ]
+        }
+    ]
+}

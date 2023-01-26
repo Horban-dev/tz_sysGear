@@ -16,13 +16,12 @@ const Input = ({input, onChangeFrom, setInput, clear}) => {
         </div>
         <input 
                     value={input} 
-                    onChange={(e) => setInput(e.target.value)} 
+                    onChange={(e) =>  setInput(e.target.value)} 
                     type="range" 
                     className="form-range" 
                     min="0" max="100000" 
                     step="0.1" 
-                    id="customRange3">
-                </input>
+                    id="customRange3"/>
         </>
     );
 };

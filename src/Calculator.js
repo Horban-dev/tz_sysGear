@@ -21,9 +21,16 @@ function Calculator() {
   const [result, setResult] = useState(0)
 
   const keys = Object.keys(values)
-  // useEffect(() => {
-  //   setResult((values[from] / values[to] * input).toFixed(2))
-  // })
+
+  useEffect(() => {
+    if(from && to){
+      setResult((values[from] / values[to] * input).toFixed(2))
+    }
+  }, [input])
+
+
+
+
 
   const convert = () => {
     setResult((values[from] / values[to] * input).toFixed(2))
